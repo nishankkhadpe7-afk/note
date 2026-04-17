@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://athletic-smile-production.up.railway.app";
 
 function App() {
   const [notes, setNotes] = useState([]);
